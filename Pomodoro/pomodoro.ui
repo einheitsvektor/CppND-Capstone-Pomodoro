@@ -45,7 +45,11 @@
      </rect>
     </property>
     <property name="font">
-     <font/>
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>10</pointsize>
+      <bold>false</bold>
+     </font>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skip current timer and reset to 25 minutes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -65,8 +69,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
-      <bold>true</bold>
+      <family>Source Code Pro</family>
+      <pointsize>28</pointsize>
+      <bold>false</bold>
      </font>
     </property>
     <property name="toolTip">
@@ -93,6 +98,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Source Code Pro</family>
       <pointsize>24</pointsize>
       <bold>false</bold>
      </font>
@@ -115,8 +121,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
-      <bold>true</bold>
+      <family>Source Code Pro</family>
+      <pointsize>28</pointsize>
+      <bold>false</bold>
      </font>
     </property>
     <property name="toolTip">
@@ -129,23 +136,30 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>10</y>
+      <x>190</x>
+      <y>0</y>
       <width>131</width>
-      <height>21</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Source Code Pro</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(153, 153, 153);</string>
     </property>
     <property name="text">
      <string>Daily Goal</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="GoalDisplay">
@@ -159,7 +173,8 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>Source Code Pro</family>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
@@ -183,6 +198,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Source Code Pro</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -197,13 +213,14 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>10</y>
+      <y>0</y>
       <width>71</width>
-      <height>21</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Source Code Pro</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
@@ -226,7 +243,8 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>Source Code Pro</family>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
@@ -250,6 +268,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Source Code Pro</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -282,6 +301,13 @@
       <height>27</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>11</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
     <property name="text">
      <string>Play</string>
     </property>
@@ -289,14 +315,17 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>35</x>
-      <y>90</y>
-      <width>101</width>
-      <height>18</height>
+      <x>25</x>
+      <y>87</y>
+      <width>121</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
-     <font/>
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(181, 181, 181);</string>
@@ -350,13 +379,16 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>90</y>
+      <y>87</y>
       <width>61</width>
       <height>18</height>
      </rect>
     </property>
     <property name="font">
-     <font/>
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(181, 181, 181);</string>
@@ -387,13 +419,14 @@
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>10</y>
+       <y>7</y>
        <width>301</width>
        <height>61</height>
       </rect>
      </property>
      <property name="font">
       <font>
+       <family>Source Code Pro</family>
        <pointsize>36</pointsize>
        <bold>false</bold>
       </font>
