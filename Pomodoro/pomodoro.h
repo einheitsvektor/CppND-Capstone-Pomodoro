@@ -54,5 +54,7 @@ private:
     QString RED = "background-color: rgb(255, 0, 0);";
     QString GREEN = "background-color: rgb(50, 150, 50);";
     QString BLUE = "background-color: rgb(0, 0, 30);";
+
+    int rounds = 3;
 };
 #endif // POMODORO_H

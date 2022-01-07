@@ -45,9 +45,7 @@
      </rect>
     </property>
     <property name="font">
-     <font>
-      <family>DejaVu Sans Mono</family>
-     </font>
+     <font/>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skip current timer and reset to 25 minutes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -67,9 +65,7 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>24</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -97,9 +93,7 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>24</pointsize>
-      <weight>50</weight>
       <bold>false</bold>
      </font>
     </property>
@@ -121,9 +115,7 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>24</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -145,7 +137,6 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
@@ -168,7 +159,6 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>16</pointsize>
      </font>
     </property>
@@ -193,7 +183,6 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -215,7 +204,6 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
@@ -238,7 +226,6 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>16</pointsize>
      </font>
     </property>
@@ -263,7 +250,6 @@
     </property>
     <property name="font">
      <font>
-      <family>DejaVu Sans Mono</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -271,7 +257,7 @@
      <string notr="true">color: rgb(161, 161, 161);</string>
     </property>
     <property name="text">
-     <string>/4</string>
+     <string>/3</string>
     </property>
    </widget>
    <widget class="Line" name="line">
@@ -310,9 +296,7 @@
      </rect>
     </property>
     <property name="font">
-     <font>
-      <family>DejaVu Sans Mono</family>
-     </font>
+     <font/>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(181, 181, 181);</string>
@@ -372,9 +356,7 @@
      </rect>
     </property>
     <property name="font">
-     <font>
-      <family>DejaVu Sans Mono</family>
-     </font>
+     <font/>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(181, 181, 181);</string>
@@ -412,9 +394,7 @@
      </property>
      <property name="font">
       <font>
-       <family>DejaVu Sans Mono</family>
        <pointsize>36</pointsize>
-       <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>

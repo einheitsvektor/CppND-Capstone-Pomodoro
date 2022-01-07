@@ -56,7 +56,7 @@ void Pomodoro::updateTime() {
         if (timertype == TimerType::focus) {
             focusCount++;
             roundCount++;
-            if (focusCount % 4 == 0) {
+            if (focusCount % this->rounds == 0) {
                 // Set timer to long pause
                 time->setHMS(0, 15, 1);
                 ui->ColorBox->setStyleSheet(BLUE); // Blue
@@ -69,7 +69,7 @@ void Pomodoro::updateTime() {
             timertype = TimerType::anybreak;
         }
         else {
-            if (roundCount >= 4)
+            if (roundCount >= this->rounds)
                 roundCount = 0;
             // Get timer back to focus state and length
             time->setHMS(0, 25, 1);
@@ -89,7 +89,7 @@ void Pomodoro::runPressed() {
     if (isFirstRun) {
         ui->ColorBox->setStyleSheet(RED); // Red
         isFirstRun = false;
-        if (roundCount == 4) roundCount = 0;
+        if (roundCount == this->rounds) roundCount = 0;
     }
     if (!runButtonClicked) {
         runButtonClicked = true;
