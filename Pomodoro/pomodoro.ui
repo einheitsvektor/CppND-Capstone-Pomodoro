@@ -38,21 +38,33 @@
    <widget class="QPushButton" name="Reset">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>130</x>
       <y>260</y>
-      <width>60</width>
+      <width>81</width>
       <height>60</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
-      <pointsize>10</pointsize>
+      <pointsize>14</pointsize>
       <bold>false</bold>
      </font>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skip current timer and reset to 25 minutes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #f2f2f2);
+border-style: solid;
+border-color: grey;
+border-width: 2px;
+border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #eff0f6);
+}</string>
     </property>
     <property name="text">
      <string>Reset</string>
@@ -69,13 +81,25 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>28</pointsize>
       <bold>false</bold>
      </font>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Decrease timer by one minute.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #f2f2f2);
+border-style: solid;
+border-color: grey;
+border-width: 2px;
+border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #eff0f6);
+}</string>
     </property>
     <property name="text">
      <string>-</string>
@@ -98,16 +122,34 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
-      <pointsize>24</pointsize>
+      <pointsize>36</pointsize>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">QPushButton{
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #f2f2f2);
+border-style: solid;
+border-color: grey;
+border-width: 2px;
+border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #eff0f6);
+}</string>
     </property>
     <property name="text">
      <string>Start</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="Plus">
@@ -121,13 +163,25 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>28</pointsize>
       <bold>false</bold>
      </font>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Increase timer by one minute.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #f2f2f2);
+border-style: solid;
+border-color: grey;
+border-width: 2px;
+border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #eff0f6);
+}</string>
     </property>
     <property name="text">
      <string>+</string>
@@ -144,7 +198,6 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
@@ -173,7 +226,6 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>18</pointsize>
      </font>
     </property>
@@ -198,7 +250,6 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -220,7 +271,6 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
@@ -243,7 +293,6 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>18</pointsize>
      </font>
     </property>
@@ -268,7 +317,6 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -303,10 +351,22 @@
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>11</pointsize>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #f2f2f2);
+border-style: solid;
+border-color: grey;
+border-width: 1px;
+border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #eff0f6);
+}</string>
     </property>
     <property name="text">
      <string>Play</string>
@@ -315,15 +375,14 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>25</x>
+      <x>29</x>
       <y>87</y>
-      <width>121</width>
+      <width>111</width>
       <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -338,7 +397,7 @@
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>110</y>
+      <y>114</y>
       <width>160</width>
       <height>19</height>
      </rect>
@@ -380,13 +439,12 @@
      <rect>
       <x>200</x>
       <y>87</y>
-      <width>61</width>
+      <width>81</width>
       <height>18</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Source Code Pro</family>
       <pointsize>10</pointsize>
      </font>
     </property>
@@ -426,7 +484,6 @@
      </property>
      <property name="font">
       <font>
-       <family>Source Code Pro</family>
        <pointsize>36</pointsize>
        <bold>false</bold>
       </font>
