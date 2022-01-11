@@ -484,7 +484,7 @@ QPushButton:pressed {
      </property>
      <property name="font">
       <font>
-       <family>Source Code Pro Light</family>
+       <family>UbuntuMono Nerd Font Mono</family>
        <pointsize>48</pointsize>
        <bold>false</bold>
       </font>
