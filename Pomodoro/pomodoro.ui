@@ -64,6 +64,10 @@ border-radius: 10px;
 QPushButton:pressed {
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                       stop: 0 #dadbde, stop: 1 #eff0f6);
+}
+QPushButton:hover:!pressed {
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f1f2f3, stop: 1 #eff0f6);
 }</string>
     </property>
     <property name="text">
@@ -99,6 +103,10 @@ border-radius: 10px;
 QPushButton:pressed {
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                       stop: 0 #dadbde, stop: 1 #eff0f6);
+}
+QPushButton:hover:!pressed {
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f1f2f3, stop: 1 #eff0f6);
 }</string>
     </property>
     <property name="text">
@@ -137,6 +145,10 @@ border-radius: 10px;
 QPushButton:pressed {
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                       stop: 0 #dadbde, stop: 1 #eff0f6);
+}
+QPushButton:hover:!pressed {
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f1f2f3, stop: 1 #eff0f6);
 }</string>
     </property>
     <property name="text">
@@ -181,6 +193,10 @@ border-radius: 10px;
 QPushButton:pressed {
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                       stop: 0 #dadbde, stop: 1 #eff0f6);
+}
+QPushButton:hover:!pressed {
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f1f2f3, stop: 1 #eff0f6);
 }</string>
     </property>
     <property name="text">
@@ -219,8 +235,8 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>258</x>
-      <y>32</y>
-      <width>31</width>
+      <y>30</y>
+      <width>41</width>
       <height>41</height>
      </rect>
     </property>
@@ -242,7 +258,7 @@ QPushButton:pressed {
    <widget class="QLabel" name="PomodoroDisplay_2">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>300</x>
       <y>40</y>
       <width>31</width>
       <height>31</height>
@@ -285,9 +301,9 @@ QPushButton:pressed {
    <widget class="QLabel" name="RoundDisplay">
     <property name="geometry">
      <rect>
-      <x>18</x>
-      <y>32</y>
-      <width>21</width>
+      <x>8</x>
+      <y>30</y>
+      <width>31</width>
       <height>41</height>
      </rect>
     </property>
@@ -366,6 +382,10 @@ border-radius: 10px;
 QPushButton:pressed {
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                       stop: 0 #dadbde, stop: 1 #eff0f6);
+}
+QPushButton:hover:!pressed {
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f1f2f3, stop: 1 #eff0f6);
 }</string>
     </property>
     <property name="text">
@@ -375,7 +395,7 @@ QPushButton:pressed {
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>29</x>
+      <x>34</x>
       <y>87</y>
       <width>111</width>
       <height>20</height>
@@ -464,6 +484,11 @@ QPushButton:pressed {
       <height>80</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>UbuntuMono Nerd Font Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(95, 95, 95);</string>
     </property>
@@ -477,15 +502,15 @@ QPushButton:pressed {
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>7</y>
+       <y>-3</y>
        <width>301</width>
-       <height>61</height>
+       <height>81</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>UbuntuMono Nerd Font Mono</family>
-       <pointsize>48</pointsize>
+       <pointsize>55</pointsize>
        <bold>false</bold>
       </font>
      </property>
