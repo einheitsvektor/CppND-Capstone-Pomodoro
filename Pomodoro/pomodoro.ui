@@ -356,91 +356,6 @@ QPushButton:hover:!pressed {
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QPushButton" name="PlaySound">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>110</y>
-      <width>83</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>11</pointsize>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton{
-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #f2f2f2);
-border-style: solid;
-border-color: grey;
-border-width: 1px;
-border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                      stop: 0 #dadbde, stop: 1 #eff0f6);
-}
-QPushButton:hover:!pressed {
-	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                      stop: 0 #f1f2f3, stop: 1 #eff0f6);
-}</string>
-    </property>
-    <property name="text">
-     <string>Play</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>34</x>
-      <y>87</y>
-      <width>111</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(181, 181, 181);</string>
-    </property>
-    <property name="text">
-     <string>White Noise</string>
-    </property>
-   </widget>
-   <widget class="QSlider" name="Slider">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>114</y>
-      <width>160</width>
-      <height>19</height>
-     </rect>
-    </property>
-    <property name="maximum">
-     <number>10</number>
-    </property>
-    <property name="singleStep">
-     <number>1</number>
-    </property>
-    <property name="sliderPosition">
-     <number>1</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-    <property name="invertedAppearance">
-     <bool>false</bool>
-    </property>
-    <property name="invertedControls">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
@@ -454,34 +369,13 @@ QPushButton:hover:!pressed {
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>87</y>
-      <width>81</width>
-      <height>18</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(181, 181, 181);</string>
-    </property>
-    <property name="text">
-     <string>Volume</string>
-    </property>
-   </widget>
    <widget class="QFrame" name="ColorBox">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>170</y>
+      <y>100</y>
       <width>301</width>
-      <height>80</height>
+      <height>141</height>
      </rect>
     </property>
     <property name="font">
@@ -502,7 +396,7 @@ QPushButton:hover:!pressed {
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>-3</y>
+       <y>30</y>
        <width>301</width>
        <height>81</height>
       </rect>
@@ -510,7 +404,7 @@ QPushButton:hover:!pressed {
      <property name="font">
       <font>
        <family>UbuntuMono Nerd Font Mono</family>
-       <pointsize>55</pointsize>
+       <pointsize>62</pointsize>
        <bold>false</bold>
       </font>
      </property>
@@ -525,16 +419,6 @@ QPushButton:hover:!pressed {
      </property>
     </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>340</width>
-     <height>23</height>
-    </rect>
-   </property>
   </widget>
  </widget>
  <resources/>
