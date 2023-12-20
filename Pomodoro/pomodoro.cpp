@@ -16,9 +16,6 @@ Pomodoro::Pomodoro(QWidget *parent)
     , runButtonClicked(false)
     , roundCount(confreader.initRoundCount())
     , focusCount(confreader.initFocusCount())
-    // , playlist(new QMediaPlaylist)
-    // , player(new QMediaPlayer)
-    // , playButtonClicked(false)
 {
     ui->setupUi(this);
 
@@ -28,15 +25,6 @@ Pomodoro::Pomodoro(QWidget *parent)
     connect(ui->Reset, SIGNAL(released()), this, SLOT(resetPressed()));
     connect(ui->Minus, SIGNAL(released()), this, SLOT(minusPressed()));
     connect(ui->Plus, SIGNAL(released()), this, SLOT(plusPressed()));
-    // connect(ui->PlaySound, SIGNAL(released()), this, SLOT(playSoundPressed()));
-    // connect(ui->Slider, SIGNAL(valueChanged(int)), player, SLOT(setVolume(int)));
-
-    // Set mp3-player path and infinite loops
-    // playlist->addMedia(QUrl("qrc:/media/White_noise.mp3"));
-    // playlist->setPlaybackMode(QMediaPlaylist::Loop);
-    // player->setPlaylist(playlist);
-    // Volume 2/100 as of the White_noise is very loud
-    // player->setVolume(2);
 
     ui->Display->setText(time->toString("mm:ss"));
     ui->RoundDisplay->setText(QString::number(roundCount));
@@ -139,17 +127,3 @@ void Pomodoro::plusPressed() {
         runButtonClicked = false;
     }
 }
-
-// Play in constructor loaded sound as infinite loop
-// void Pomodoro::playSoundPressed() {
-    // if (!playButtonClicked) {
-        // player->play();
-        // playButtonClicked = true;
-        // ui->PlaySound->setText("Stop");
-    // }
-    // else if (playButtonClicked) {
-        // player->stop();
-        // playButtonClicked = false;
-        // ui->PlaySound->setText("Play");
-    // }
-// }

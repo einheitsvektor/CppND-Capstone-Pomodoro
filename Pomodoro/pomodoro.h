@@ -33,7 +33,6 @@ private slots:
     void resetPressed();
     void minusPressed();
     void plusPressed();
-    // void playSoundPressed();
 
 private:
     Ui::Pomodoro *ui;
@@ -47,9 +46,6 @@ private:
     bool runButtonClicked;
     int roundCount;
     int focusCount;
-    // QMediaPlaylist *playlist;
-    // QMediaPlayer *player;
-    // bool playButtonClicked;
 
     QString RED = "background-color: rgb(255, 0, 0);";
     QString GREEN = "background-color: rgb(50, 150, 50);";
