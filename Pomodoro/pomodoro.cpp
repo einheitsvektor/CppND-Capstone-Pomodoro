@@ -1,6 +1,4 @@
 #include <QDebug>
-#include <filesystem>
-#include <string>
 
 #include "pomodoro.h"
 #include "ui_pomodoro.h"
@@ -91,11 +89,21 @@ void Pomodoro::runPressed() {
     }
 }
 
-// Pause timer and set it back
+// Stop timer and set back to according time
 void Pomodoro::resetPressed() {
     timer->stop();
-    time->setHMS(0, 25, 0);
+    // If short pause
+    if (timertype == TimerType::anybreak && ui->ColorBox->styleSheet() == GREEN) {
+        time->setHMS(0, 5, 0);
+    }
+    // If long pause
+    else if (timertype == TimerType::anybreak && ui->ColorBox->styleSheet() == BLUE) {
+        time->setHMS(0, 15, 0);
+    } else {
+        time->setHMS(0, 25, 0);
+    }
     runButtonClicked = false;
+    ui->Run->setText("Start");
     ui->Display->setText(time->toString("mm:ss"));
 }
 

@@ -4,8 +4,6 @@
 #include <QMainWindow>
 #include <QTime>
 #include <QTimer>
-// #include <QMediaPlayer>
-#include <QMediaPlaylist>
 
 #include "configreader.h"
 
